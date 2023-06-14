@@ -327,7 +327,7 @@ gulp.task('test:visual', () => {
  * Site metadata for use with templates.
  * @type {Object}
  */
-const site = getSubDirectories('dist/templates/android-dot-com/index.html');
+const site = getSubDirectories('dist/templates/android-dot-com');
 
 /**
  * Generates an HTML file based on a template and file metadata.
